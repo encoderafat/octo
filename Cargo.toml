@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "cli",
+    "executor",
+    "inspect",
+    "pallets/bhdao",
+    "pallets/nft",
+    "primitives",
+    "rpc",
+    "runtime",
+]
+[profile.release]
+panic = "unwind"
